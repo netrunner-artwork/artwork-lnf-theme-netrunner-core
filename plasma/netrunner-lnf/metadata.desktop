@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Netrunner
+Name[es]=Netrunner
+comment=Default Netrunner Core Plasma theme
+Comment[es]=Tema de Plasma por defecto de Netrunner Core
+X-KDE-PluginInfo-Author=Uri Herrera
+X-KDE-PluginInfo-Email=uri_herrera@nitrux.in
+X-KDE-PluginInfo-Name=Chromeo
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-Depends=plasma-desktop
+X-KDE-PluginInfo-License=CC BY-SA 4.0
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[Wallpaper]
+defaultWallpaperTheme=wallpaper
+defaultFileSuffix=.png
+defaultWidth=2560
+defaultHeight=1600
