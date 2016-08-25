@@ -29,7 +29,7 @@ configure_file(
 add_custom_target(uninstall "${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake")
 
 # Set up packaging
-set(CPACK_PACKAGE_NAME "netrunner'lnf")
+set(CPACK_PACKAGE_NAME "netrunner-lnf")
 set(CPACK_PACKAGE_VERSION "${THEME_VERSION_STRING}")
 set(CPACK_GENERATOR "TGZ")
 set(CPACK_SET_DESTDIR FALSE)
@@ -46,11 +46,9 @@ set(KF5_MIN_VERSION "5.5.0")
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Plasma)
 
 # Subdirectories
-add_subdirectory(colors)
-# add_subdirectory(icons)
+add_subdirectory(aurorae)
 add_subdirectory(look-and-feel)
 add_subdirectory(plasma)
-# add_subdirectory(qtcurve)
 add_subdirectory(wallpapers)
 
 # Display featute summary
